@@ -73,7 +73,7 @@ Arquitectura y decisiones: [docs/arquitectura.md](docs/arquitectura.md) y
 | IDE | VS Code con la extensión **SQL Server (mssql)** y **GitHub Copilot** (Chat / modo agente) |
 | Python (solo para la instalación) | 3.10 o superior con `huggingface_hub`, para descargar el modelo |
 
-> ⚠️ El runtime ONNX local de `CREATE EXTERNAL MODEL` es una **característica en preview**
+>  El runtime ONNX local de `CREATE EXTERNAL MODEL` es una **característica en preview**
 > de SQL Server 2025 y necesita `PREVIEW_FEATURES = ON`. La sintaxis se ha comprobado con
 > la documentación de Microsoft Learn de octubre de 2026 y puede cambiar.
 
@@ -117,7 +117,7 @@ Otra opción, que es la que se usó en este proyecto (versión 1.31.0): descarga
   `tokenizers_cpp-release.dll` de la release `v0.1.1` de `PARTHSQL/tokenizers-cpp`,
   **renombrada** a `tokenizers_cpp.dll`.
 
-> 🔒 Una DLL nativa se carga en un proceso del servidor. Úsala solo si confías en su origen
+>  Una DLL nativa se carga en un proceso del servidor. Úsala solo si confías en su origen
 > y verifica su hash antes de copiarla.
 
 ### 4. Modelo ONNX y tokenizador
