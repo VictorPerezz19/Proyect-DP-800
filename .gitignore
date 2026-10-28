@@ -1,0 +1,59 @@
+# ---------------------------------------------------------------
+# Binarios del runtime ONNX (se descargan, no se versionan)
+# ---------------------------------------------------------------
+*.onnx
+*.onnx.data
+*.dll
+*.safetensors
+*.bin
+*.h5
+tokenizer.json
+model_onnx/
+onnx_runtime/
+.cache/
+
+# ---------------------------------------------------------------
+# Secretos y configuración local (nunca al repositorio)
+# ---------------------------------------------------------------
+.env
+.env.*
+*.pfx
+*.pem
+*.key
+secrets.*
+# Perfiles de conexión y ajustes locales de VS Code (pueden incluir datos de conexión)
+.vscode/
+
+# ---------------------------------------------------------------
+# Python (solo se usa para descargar el modelo)
+# ---------------------------------------------------------------
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# ---------------------------------------------------------------
+# Archivos de base de datos y copias de seguridad
+# ---------------------------------------------------------------
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.trn
+
+# ---------------------------------------------------------------
+# Resultados de SSMS / Azure Data Studio y temporales
+# ---------------------------------------------------------------
+*.rpt
+*.sqlplan
+*.xel
+~$*
+*.tmp
+
+# ---------------------------------------------------------------
+# Sistema operativo
+# ---------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
