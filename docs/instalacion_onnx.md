@@ -143,7 +143,7 @@ SELECT CAST(VECTOR_DISTANCE('cosine',
 | EN gato / gatito (similar) | 0,0544 | 0,2206 |
 | EN gato / bolsa (distinto) | 0,1384 | 0,4266 |
 | ES mudanza / traslado (similar) | 0,0429 | 0,2401 |
-| ES mudanza / seguridad (distinto) | 0,0492 | 0,2135 ❌ |
+| ES mudanza / seguridad (distinto) | 0,0492 | 0,2135  |
 | ES pregunta de vacaciones / norma de vacaciones (similar) | 0,0893 | 0,2727 |
 | ES pregunta de vacaciones / plan de comisiones (distinto) | 0,1050 | 0,3247 |
 
