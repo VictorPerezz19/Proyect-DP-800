@@ -1,7 +1,6 @@
 # Defensa del proyecto: decisiones técnicas y su justificación
 
-Este documento explica **por qué** el proyecto está construido así, para poder defenderlo
-ante el tribunal de la certificación DP-800.
+Este documento explica **por qué** el proyecto está construido así.
 
 ---
 
